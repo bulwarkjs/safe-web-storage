@@ -25,6 +25,20 @@
         .getItem('name')
         .map(console.log) //victor igor
 
+     storage
+      .local
+      .key(0)
+      .map(console.log) //testing-name
+
+     storage
+      .local
+      .removeItem('name')
+      .map(() => console.log('removed'))
+
+     storage
+      .local
+      .clear() //clean storage
+
     </script>
   </body>
 </html>
