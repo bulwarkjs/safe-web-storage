@@ -1,7 +1,7 @@
 {
-  "name": "safestorage",
+  "name": "safe-web-storage",
   "version": "0.1.0",
-  "description": "safestorage is a safe way for you to work with browser storage using a purer functional style.",
+  "description": "safe-web-storage is a safe way for you to work with browser storage using a purer functional style.",
   "main": "./build/dist/safestorage.min.js",
   "scripts": {
     "preversion": "npm run build",
@@ -23,7 +23,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/victorvoid/safestorage.git"
+    "url": "git+https://github.com/victorvoid/safe-web-storage.git"
   },
   "keywords": [
     "DOM",
@@ -36,9 +36,9 @@
   "author": "Victor Igor <victor.0w3@gmail.com> (https://victorvoid.me)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/victorvoid/safestorage/issues"
+    "url": "https://github.com/victorvoid/safe-web-storage/issues"
   },
-  "homepage": "https://victorvoid.me/safestorage",
+  "homepage": "https://victorvoid.me/safe-web-storage",
   "nyc": {
     "check-coverage": true,
     "lines": 100,
