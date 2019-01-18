@@ -1,19 +1,20 @@
-# safestorage
+# safe web storage
 
-safestorage is a safe way for you to work with browser storage using a purer functional style.
+safe-web-storage is a safe way for you to work with web storage using a purer functional style.
 
 ## Installation
 
-`safestorage` is available from `npm`.
+`safe-web-storage` is available from `npm`.
 
 ```
-$ npm install safestorage -S
+$ npm install safe-web-storage -S
 ```
 
 ## Overview
 
 
 ```js
+const safestorage = require('safe-web-storage')
 const storage = safestorage({ prefix: 'safe' })
 
 storage
@@ -46,6 +47,7 @@ storage
 You can use to session or local storage.
 
 ```js
+const safestorage = require('safe-web-storage')
 const storage = safestorage({ prefix: 'safe' })
 const local = storage.local
 const session = storage.session
