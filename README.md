@@ -37,7 +37,7 @@ storage
   .local
   .getItem('name')
   .map(console.log) //victor igor
-  
+
 storage
   .local
   .key(0)
@@ -98,6 +98,34 @@ local
 const maxAge = local.getItem('age')
   .map(age => age + 10)
   .getOrElse(10) //30
+```
+
+### Setting multiples values
+
+```js
+const safestorage = require('safe-web-storage')
+const storage = safestorage({ prefix: 'hj' })
+const local = storage.local
+
+local
+  .setAllItems({ age: 20, name: 'victor', description: 'Lorem' })
+  
+//Save on localStorage:
+//hj-age
+//hj-name
+//hj-description
+```
+
+### Getting multiples values
+
+```js
+const safestorage = require('safe-web-storage')
+const storage = safestorage({ prefix: 'hj' })
+const local = storage.local
+
+local
+  .getAllItems(['age', 'name','description'])
+  .map(console.log) //{ age: 20, name: 'victor', description: 'Lorem' }
 ```
 
 ## See too
