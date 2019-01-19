@@ -100,6 +100,10 @@ const maxAge = local.getItem('age')
   .getOrElse(10) //30
 ```
 
+## See too
+
+- [safedom](https://github.com/victorvoid/safedom)
+
 License
 -------
 
