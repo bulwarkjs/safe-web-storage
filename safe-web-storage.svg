@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="381px" height="78px" viewBox="0 0 381 78" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-3" transform="translate(0.000000, -15.000000)">
+            <g id="Group-2" fill="#1B54CA">
+                <g id="Group">
+                    <g id="iconfinder_shield-secured-anti-safe-protection_3209241" transform="translate(0.000000, 15.359999)" fill-rule="nonzero">
+                        <path d="M0,11.6342876 L0,12.8146007 C0,37.9293066 12.0470395,61.643884 31.4423986,74.7021931 L34.5599985,76.7999966 L37.6775983,74.7006002 C57.0729574,61.643884 69.1199969,37.9293066 69.1199969,12.8146007 L69.1199969,11.6342876 L34.5599985,0 L0,11.6342876 Z M36.1814384,71.9815793 L34.5599985,73.072692 L32.9385585,71.9815793 C14.7009593,59.7005884 3.25871985,37.5645405 2.89007987,13.9917281 L34.5599985,3.32908831 L66.229917,13.9901352 C65.8612771,37.5645405 54.4190376,59.7005884 36.1814384,71.9815793 Z" id="Shape"></path>
+                    </g>
+                    <text id="S" font-family="FiraSans-Bold, Fira Sans" font-size="57.5999974" font-weight="bold" letter-spacing="-0.103764254">
+                        <tspan x="19.1999991" y="68">S</tspan>
+                    </text>
+                </g>
+            </g>
+            <text id="webstorage" font-family="FiraSans-SemiBold, Fira Sans" font-size="57.5999974" font-weight="500" letter-spacing="-0.249034128" fill="#262F5F">
+                <tspan x="80.6399964" y="75.6799997">webstorage</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
