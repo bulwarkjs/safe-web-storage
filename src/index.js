@@ -52,7 +52,6 @@ function Storage({ storage, getPrefix }) {
   function setItem(name, value) {
     return isStorageSupported()
       .orElse(() => {
-        console.log('entrou aqui..')
         inMemoryStorage[name] = JSON.stringify(value)
         return Error('Saved on storage fallback')
       })
